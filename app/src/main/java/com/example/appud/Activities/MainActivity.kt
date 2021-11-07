@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
         else if(boton.text == "-" ) operator = Operador.RES
         else if(boton.text == "*" ) operator = Operador.MUL
         else if(boton.text == "/" ) operator = Operador.DIV
-        else if(boton.text == "C") operator = Operador.CLEAR1
+        
 
 
         else operator = Operador.NINGUNA
@@ -125,6 +125,7 @@ class MainActivity : AppCompatActivity() {
             Operador.RES ->  N1 - N2
             Operador.MUL ->  N1 * N2
             Operador.DIV ->  N1 / N2
+
 
 
             else ->  0.0

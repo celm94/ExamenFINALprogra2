@@ -13,8 +13,8 @@ class INFO : AppCompatActivity() {
         setContentView(R.layout.activity_info)
 
         regresarButton.setOnClickListener{
-            val intent2 = Intent(this, MainActivity::class.java)
-            startActivity(intent2)
+            val intent = Intent(this, INFO::class.java)
+            finish()
         }
     }
 }
